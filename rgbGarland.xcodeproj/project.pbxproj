@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A970EC06274593FD00990F27 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970EC05274593FD00990F27 /* TextViewController.swift */; };
 		A9995C7B274438DC00E88E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9995C7A274438DC00E88E5C /* AppDelegate.swift */; };
 		A9995C7D274438DC00E88E5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9995C7C274438DC00E88E5C /* SceneDelegate.swift */; };
 		A9995C7F274438DC00E88E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9995C7E274438DC00E88E5C /* ViewController.swift */; };
 		A9995C82274438DC00E88E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9995C80274438DC00E88E5C /* Main.storyboard */; };
 		A9995C84274438DE00E88E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9995C83274438DE00E88E5C /* Assets.xcassets */; };
 		A9995C87274438DE00E88E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9995C85274438DE00E88E5C /* LaunchScreen.storyboard */; };
+		A9E09A3727443C7B0051D025 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E09A3627443C7B0051D025 /* DrawingViewController.swift */; };
+		A9E9AED6274581370052B587 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9AED5274581370052B587 /* Bluetooth.swift */; };
+		A9E9AED8274582240052B587 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9AED7274582240052B587 /* GameViewController.swift */; };
+		A9E9AEDA27458CB10052B587 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9AED927458CB10052B587 /* Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A970EC05274593FD00990F27 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		A9995C77274438DC00E88E5C /* rgbGarland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgbGarland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9995C7A274438DC00E88E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9995C7C274438DC00E88E5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		A9995C83274438DE00E88E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9995C86274438DE00E88E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9995C88274438DE00E88E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E09A3627443C7B0051D025 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		A9E9AED5274581370052B587 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		A9E9AED7274582240052B587 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9E9AED927458CB10052B587 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				A9995C7A274438DC00E88E5C /* AppDelegate.swift */,
 				A9995C7C274438DC00E88E5C /* SceneDelegate.swift */,
 				A9995C7E274438DC00E88E5C /* ViewController.swift */,
+				A9E09A3627443C7B0051D025 /* DrawingViewController.swift */,
+				A9E9AED7274582240052B587 /* GameViewController.swift */,
+				A970EC05274593FD00990F27 /* TextViewController.swift */,
 				A9995C80274438DC00E88E5C /* Main.storyboard */,
+				A9E9AED5274581370052B587 /* Bluetooth.swift */,
+				A9E9AED927458CB10052B587 /* Action.swift */,
 				A9995C83274438DE00E88E5C /* Assets.xcassets */,
 				A9995C85274438DE00E88E5C /* LaunchScreen.storyboard */,
 				A9995C88274438DE00E88E5C /* Info.plist */,
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9995C7F274438DC00E88E5C /* ViewController.swift in Sources */,
+				A9E9AED6274581370052B587 /* Bluetooth.swift in Sources */,
+				A9E09A3727443C7B0051D025 /* DrawingViewController.swift in Sources */,
 				A9995C7B274438DC00E88E5C /* AppDelegate.swift in Sources */,
+				A9E9AEDA27458CB10052B587 /* Action.swift in Sources */,
+				A9E9AED8274582240052B587 /* GameViewController.swift in Sources */,
 				A9995C7D274438DC00E88E5C /* SceneDelegate.swift in Sources */,
+				A970EC06274593FD00990F27 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +312,13 @@
 				DEVELOPMENT_TEAM = 26V6BQBWSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rgbGarland/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +342,13 @@
 				DEVELOPMENT_TEAM = 26V6BQBWSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rgbGarland/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
